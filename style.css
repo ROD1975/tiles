@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,400i,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    color: #5D5C5C;
+    font-size: 15px;
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 1.6em;
+    background-color: white;
+  /*  background-image: url('pics/background-city-landscape.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-color: #e5e5e5;
+}
+img {
+max-width: 600px;
+height: auto;
+margin: 0 auto;
+}
+/*HEADER*/
+
+/*Main SECTION*/
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    max-width: 805px;
+}
+.main-pic {
+    min-width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+.pic-zindex {
+    position: absolute;
+    width: 100%
+}
+.buttons {
+    width: 200px;
+    height: 500px;
+    overflow: auto;
+    background-color: black;
+    padding: 5px;
+}
+.buttons-i {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 170px;
+    font-size: 12px;  
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.buttons-i > div {
+    width: 50px;
+    height: 50px;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-bottom: solid white 1px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+.buttons-i > div:hover {
+    background-color: grey;
+}
+.buttons-i > div:nth-child(3n+1){
+    background-color: #1C84BA;
+}
+.buttons-i > div:nth-child(3n+2){
+    background-color: #D74771;
+}
+.buttons-i > div:nth-child(3n+3){
+    background-color: #5D5C5C;
+}
+.buttons-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 170px;
+    margin: 0 auto;
+}
+.buttons-content > div > div {
+    width: 50px;
+    height: 50px;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-bottom: solid white 1px;
+}
+.buttons-content > div:nth-child(1) > div {
+    background-color: #1C84BA;
+}
+.buttons-content > div:nth-child(2) > div {
+    background-color: #D74771;
+}
+.buttons-content > div:nth-child(3) > div {
+    background-color: #5D5C5C;
+}
+.buttons-content > div > div:hover {
+    background-color: grey;
+}
+.div-button-f {
+    padding: 10px;
+    border-bottom: 1px #e6f0e8 solid;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #cccccc;
+}
+.floor, .wall {
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+    height: 100%;
+}
+span {
+    font-size: 12px;
+}
+
+.media-size {
+    display: none;
+}
+/*MENU ADS*/
+.menu-ads {
+    
+    width: 100%;
+    position: sticky;
+    bottom: -6px;
+    
+}
+.menu-ads > img {
+    width: 100%;
+}
+/*</MENU ADS*/
+/*SCROLLBAR*/
+
+/*FOOTER*/
+footer {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    max-width: 800px;
+}
+}
+footer > p {
+    padding-left: 15px;
+}
+.choice-input1 {
+    background-color: #1C84BA;
+}
+.choice-input2 {
+    background-color: #D74771;
+}
+.choice-input3 {
+    background-color: #5D5C5C;
+}
+.footer-middle > div {
+    display: inline-block;
+    padding-left: 15px;
+    text-align: center;
+}
+.footer-middle > div > p {
+    display: inline-block;
+}
+.footer-middle > div > p {
+    display: block;
+}
+.choice-input {
+    padding: 5px;
+    border-radius: 2px;
+    width: 100px;
+}
+.footer-buton {
+    cursor: pointer;
+}
+.footer-buton:hover {
+    color: grey;
+}
+.footer-buton-reset {
+    color: red;
+}
+
+.sale-footer {
+    color: white;
+    width: 12%;
+    background-color: #a80532;
+    text-align: center;
+    line-height: 90px;
+}
+
+.sale-footer > h5 {
+   line-height: 90px;
+   font-size: 15px; 
+}
+
+.modal-body-kb .modal-title-kb {
+    color: black;
+}
+
+.modal-content {
+    background-color: #a80532;
+}

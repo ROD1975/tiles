@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Strona główna</title>
+<meta name="description" content="Opis strony, wyświetlany np. w wyszukiwarkach">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="{tytuł aktualnie wyświetlanej strony przy udostępnianiu}"/>
+<meta property="og:description" content="{opis strony przy udostępnianiu}"/>
+<meta property="og:image" content="{obrazek udostępniania}"/>
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="style.css">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+</head>
+<body>
+	<section>
+		
+		<div class="main-pic">
+			<div class="pic-zindex">
+				<img id="myImage" src="pics/blank-bedroom.png">
+			</div>
+			<div class="pic-zindex">
+				<img id="myImage2" src="pics/blank-bedroom.png">
+			</div>
+			<div class="pic-zindex">
+				<img id="myImage4" src="pics/blank-bedroom.png">
+			</div>
+			<div class="pic-zindex">
+				<img id="myImage3" src="pics/Bed-and-shadows.png">
+			</div>
+			<div class="pic">
+				<img id="" src="pics/Image.png">
+			</div>
+		</div>
+		<div class ="buttons">
+			<div class="buttons-i">
+				<div>Floor</div>
+				<div>Wall</div>
+				<div>W-img</div>
+				<div id="img-reset">Reset</div>
+				<div id="img-reset1">Reset</div>
+				<div id="img-reset2">Reset</div>
+			</div>
+			<div class="buttons-content">
+				<div>
+					<div id="red">Red</div>
+					<div id="grey">Grey</div>
+					<div id ="wood">Wood</div>
+					<div id ="3D-floor">3D</div>
+					<div id="marble">Marble</div>
+					<div id="marble2">Marble2</div>
+					<div id="carpet3">Carpet3</div>
+					<div id="carpet4">Carpet4</div>
+				</div>
+				<div>
+					<div id="blue">Blue</div>
+					<div id="grey-w">Grey</div>
+					<div id="red-w">Red</div>
+					<div id="wall-bricks">Bricks</div>
+					<div id="w-forest1">Forest</div>
+					<div id="w-forest2">Forest2</div>
+					<div id="city-by-night">City</div>
+					<div id="seeByNight">See</div>
+				</div>
+				<div>
+					<div id="flowers">Img 1</div>
+					<div id="tree">Img 2</div>
+					<div id="wallcol">Img 3</div>
+					<div id="stoneWall">Stone</div>
+					<div id="hearts">Hearts</div>
+					<div id="flowers2">Flowers2</div>
+					<div id="flowers3">Flowers3</div>
+					<div id="shapes">Flowers4</div>
+				</div>
+			</div>
+			<div class="menu-ads"> 
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="pics/christmas-sale.jpg" alt="First slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="pics/christmas-sale2.jpg" alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="pics/christmas-sale3.jpg" alt="Third slide">
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<!-- <img src="pics/christmas-sale.jpg">  -->
+		</div>
+	</section>
+	<footer>
+		<!-- <div class="header-left">
+			<p>Welcome. Use buttons below and designe your interior.</p>
+		</div> -->
+		<!-- <div class="divaider"></div> -->
+		<div class="sale-footer"><h5 id='changing'></h5></div>
+		<div class="sale-footer  btn-primary"  data-toggle="modal" data-target="#exampleModal">2days special
+
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title modal-title-kb" id="exampleModalLabel">2days sale</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body modal-body-kb">
+			        Lorem ipsum Lorem ipsum<br>
+			        <img class="d-block w-100" src="pics/christmas-sale3.jpg" alt="Third slide">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+		<div class="footer-middle">
+			<!-- <div>
+				<p>Your choice:</p>
+			</div> -->
+			<div>
+				<p>Floor:</p>
+				<p id="floor" class="choice-input choice-input1">Empty</p>
+			</div>
+			<div>
+				<p>Wall:</p>
+				<p id="wall" class="choice-input choice-input2">Empty</p>
+			</div>
+			<div>
+				<p>Image:</p>
+				<p id="wall-image" class="choice-input choice-input3">Empty</p>
+			</div>
+			<div id="reset" onclick="reset()" class="footer-buton footer-buton-reset">
+				<i class="fa fa-times" aria-hidden="true"></i>
+				<p>Reset</p>
+			</div>
+			<div class="footer-buton" onclick="exportPdf()">
+				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+				<p>Export PDF</p>
+			</div>
+			<div class="footer-buton">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<p>Newsletter</p>
+			</div>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="jsfile.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="autochange_text.js"></script>
+<script>
+    startChangingText(['Sale', '50% OFF', 'Sofa Offer'], 3)
+</script>
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
